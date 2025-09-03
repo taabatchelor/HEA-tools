@@ -27,7 +27,7 @@ metals = ('Ir', 'Pd', 'Pt', 'Rh', 'Ru')
 nMetals = len(metals)
 
 # location and path to csv with all possible fingerprints
-csv = '../5_pred_histogram/OH_all_slabs.csv'
+csv = '../pred_histogram/OH_all_slabs.csv'
 
 # load number of each metal, adsorption energies, and multiplicity of fingerprint
 counts = np.loadtxt(csv, delimiter=',', dtype='uint8', usecols=range(nMetals))

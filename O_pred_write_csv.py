@@ -9,7 +9,7 @@ from LinearRegression import LinearRegression
 model = LinearRegression()
 
 # load training set fingerprints and energies
-csvTrain = '../3_DFT_histogram/O_train.csv'
+csvTrain = '../DFT_histogram/O_train.csv'
 XTrain = np.loadtxt(csvTrain, dtype='int', delimiter=',', usecols=range(55))
 ETrain = np.loadtxt(csvTrain, dtype='float', delimiter=',', usecols=-1)
 
@@ -17,7 +17,7 @@ ETrain = np.loadtxt(csvTrain, dtype='float', delimiter=',', usecols=-1)
 w = model.weights(XTrain, ETrain, nMetals=5, zoneSizes=(3, 6, 3, 3, 3))
 
 # load test set fingerprints and energies
-csvTest = '../3_DFT_histogram/O_test.csv'
+csvTest = '../DFT_histogram/O_test.csv'
 XTest = np.loadtxt(csvTest, dtype='int', delimiter=',', usecols=range(55))
 ETest = np.loadtxt(csvTrain, dtype='float', delimiter=',', usecols=-1)
 

@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import MultipleLocator, FormatStrFormatter
 
 # location and name of csv files with training and test adsorption energies
-csvTrainDFT = '../3_DFT_histogram/OH_train.csv'
-csvTestDFT = '../3_DFT_histogram/OH_test.csv'
+csvTrainDFT = '../DFT_histogram/OH_train.csv'
+csvTestDFT = '../DFT_histogram/OH_test.csv'
 csvTrainPred = 'OH_train_pred.csv'
 csvTestPred = 'OH_test_pred.csv'
 

@@ -13,8 +13,8 @@ sys.path.append('../model')
 from Slab import Slab
 
 # location and name of database
-dbTrain = connect('../2_DFT_calculations/train.db')
-dbTest = connect('../2_DFT_calculations/test.db')
+dbTrain = connect('../DFT_calculations/train.db')
+dbTest = connect('../DFT_calculations/test.db')
 
 # molecular DFT reference energies (eV)
 refs = {'H2O': -12.261853, 'H2': -6.673272}
