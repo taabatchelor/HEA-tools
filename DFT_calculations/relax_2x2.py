@@ -6,10 +6,10 @@ from ase.optimize import QuasiNewton
 from ase.db import connect
 
 # define the database containing unrelaxed slabs
-db = connect('../1_make_surfaces/3x4.db')
+db = connect('../1_make_surfaces/2x2.db')
 
 # define the database to be filled with relaxed structures
-db_relaxed = connect('test_trial.db')
+db_relaxed = connect('train.db')
 
 # loop through all 1000 unrelaxed structures
 for idx in range(1000):
