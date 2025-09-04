@@ -58,9 +58,9 @@ The same goes for *O adsorption but with 55 integers, with the first 35 integers
 
 This is better described in the paper.
 
-![alt text](https://github.com/taabatchelor/HEA-tools/blob/main/DFT_histogram/OH_DFT_histogram.py "DFT calculated *OH adsorption energies on IrPdPtRhRu")
+![alt text](https://github.com/taabatchelor/HEA-tools/blob/main/DFT_histogram/OH_DFT_histogram.png "DFT calculated *OH adsorption energies on IrPdPtRhRu")
 
-![alt text](https://github.com/taabatchelor/HEA-tools/blob/main/DFT_histogram/O_DFT_histogram.py "DFT calculated *O adsorption energies on IrPdPtRhRu")
+![alt text](https://github.com/taabatchelor/HEA-tools/blob/main/DFT_histogram/O_DFT_histogram.png "DFT calculated *O adsorption energies on IrPdPtRhRu")
 
 
 
